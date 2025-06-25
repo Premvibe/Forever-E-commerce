@@ -13,11 +13,11 @@ const Footer = () => {
 
       <div>
          <p className='text-xl font-medium mb-5'>COMPANY</p>
-         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+         <ul className='flex flex-col gap-1 text-gray-600'>
+          <li>Home</li>
+          <li>About us</li>
+          <li>Delivery</li>
+          <li>Privacy policy</li>
          </ul>
       </div>
  
