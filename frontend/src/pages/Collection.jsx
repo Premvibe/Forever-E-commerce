@@ -210,7 +210,15 @@ const Collection = () => {
         {/* Product List */}
 
         <div className="grid grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-4 gap-y-6">
-          
+          {filterProducts.map((product) => (
+            <ProductItem
+              key={product._id}
+              id={product._id}
+              image={product.image}
+              name={product.name}
+              price={product.price}
+            />
+          ))}
         </div>
       </div>
     </div>
